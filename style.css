@@ -63,6 +63,9 @@ button:hover {
 .main-head {
   background: #131c27;
   color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
 }
 
 nav {
@@ -166,7 +169,7 @@ nav ul {
 }
 
 /* Benefits Section */
-.benefits {
+.benefits-head {
   background: #343c44;
   padding: 3rem;
   min-height: 30vh;
